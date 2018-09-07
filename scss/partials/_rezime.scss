@@ -1,0 +1,30 @@
+.rezime {
+ background-color:$slovaNaslov;
+ text-align:right;
+ padding: 25px;
+ margin:0px 0px 50px 0px;
+    .poruka {
+     color:#00cc66;
+     font-family:Georgia;
+     font-style:italic;
+     font-weight:bold;
+     font-size:80px;
+            }
+   .dole {
+    @extend .poruka;
+    color:$bela;
+    font-size:30px;
+    display:inline;
+    text-align:right;
+        }
+    
+    .poruka2{
+    @extend .dole;
+    color:#6699cc;
+            } 
+          }
+    
+ main-footer{
+ padding: 25px;
+ }
+  

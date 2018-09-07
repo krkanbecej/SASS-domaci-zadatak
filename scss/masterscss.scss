@@ -1,0 +1,82 @@
+@import "../scss/partials/_variables.scss";
+body{ 
+  background-color:#eeeeee;
+    }
+@import "../scss/partials/_nav.scss";
+main{
+  width:960px;
+  background-color:$bela;
+  margin: auto;
+  padding:30px
+}
+@import "../scss/partials/_naslovheder.scss";
+        
+.kolona1 {
+ overflow: auto;
+ display:block;
+ margin-top:40px;
+ padding-left:25px;
+
+.stubacA {
+   width:(100% / 2);
+   float:left;
+          }
+aside  {
+   width:(100% / 2);
+   float:right;
+img  {
+   width:450px;
+   height:300px;
+     }
+       }
+        }
+p{
+  padding:25px 25px 0px 0px;
+  font-family:$fontklasik;
+  font-size:16px;
+  color:#000000;
+  margin:0px;
+  }
+h3{
+  margin:0px;
+  font-family:$fontbold;
+  font-size:30px;
+  }
+h4{
+  margin:0px;
+  font-family:$fontbold;
+  font-size:22px;
+  padding:25px 0px 0px 25px;
+  }
+.kolona2{
+ @extend .kolona1
+ }
+.stubac2-1{
+   @extend .stubacA
+ }
+.kolona3{
+   @extend .kolona1;
+   padding:50px 0px 0px 0px;
+         }
+.kolona3 p {
+ padding:35px 25px 25px 25px;
+ }
+.stubac3-1{
+      width:(100% / 4);
+      float:left;
+            }
+.stubac3-2{
+     @extend .stubac3-1;
+           }
+.stubac3-3{
+       @extend .stubac3-1;
+       background-color:$slovaNaslov;
+       color:$bela;
+           }
+ #belifont{
+       color:$bela;
+          }
+.stubac3-4{
+       @extend .stubac3-1
+           }
+ @import "../scss/partials/_rezime.scss";
